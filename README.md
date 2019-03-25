@@ -13,16 +13,16 @@ API endpoints for <b>/items/todo</b> are:
 
 <b>POST   /items/todo :</b><br/>
       <pre>url: http://apidemoautogeneral.herokuapp.com/api/items/todo <br/> 
-      parameter: name --> body(required),   description --> {"text": "test text"}<br/>
+      parameter: name --> body,   description --> {"text": "test text"}<br/>
 </pre><br/>
 
 <b>GET   /items/todo{id} :</b><br/>
       <pre>url: http://apidemoautogeneral.herokuapp.com/api/items/todo/{id} <br/> 
-      parameter: name --> id(required),   description --> id<br/>
+      parameter: name --> id,   description --> id<br/>
 </pre><br/>
 
 <b>PATCH /items/todo{id} :</b><br/>
       <pre>url: http://apidemoautogeneral.herokuapp.com/api/items/todo/{id} <br/> 
-      parameter: name --> id(required),   description --> id<br/>
-      parameter: name --> body(required),   description --> {"text": "test text", "isCompleted": true/false}<br/>
+      parameter: name --> id,   description --> id<br/>
+      parameter: name --> body,   description --> {"text": "test text", "isCompleted": true/false}<br/>
 </pre><br/>
