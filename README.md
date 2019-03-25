@@ -6,7 +6,7 @@ There is an API call for validating brackets in <b>/task</b> endpoint:
 
 <b>GET   /tasks/validateBrackets :</b><br/>
       <pre>url: http://apidemoautogeneral.herokuapp.com/api/tasks/validateBrackets <br/> 
-      parameter: name --> input(required),   description --> Input string (min length 1 and max length 50)<br/>
+      parameter: name --> input,   description --> Input string (min length 1 and max length 50)<br/>
 </pre><br/>
 
 API endpoints for <b>/items/todo</b> are: 
